@@ -1,0 +1,61 @@
+
+.pdf {
+	blockquote {
+    top: 0px;
+    right: 20px;
+    position: absolute;
+  }
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+    border: none;
+    border-width: 8px 0 2px 0;
+    text-align: left;
+  }
+
+  .resume {
+    position:relative;
+    padding: 40px 80px;
+  }
+  .contact !important {
+    top: 10px;
+    right: 20px;
+    position: absolute;
+  }
+  .content {
+    margin-top: 22px;
+  }
+  .bs-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+  }
+  h3 {
+    text-align: left;
+
+  }
+  h1, h2 {
+    text-align: left;
+  }
+  .pdflink {
+    display: none !important;
+  }
+  .tel {
+    display: block !important;
+  }
+  hr {
+    display: none !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+  .footer {
+/*    display: block !important;
+*/    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}

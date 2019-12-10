@@ -1,0 +1,39 @@
+
+
+	@media only screen 
+	and (min-width: 375px)
+	and (min-width: 768px)
+		 {
+
+		#header li {
+			text-align: left;
+		}
+		ul {
+			padding-left: 10px;
+
+		}
+		blockquote {
+			margin-top: 10px;
+		}
+		h3 {
+			text-align: left;
+
+		}
+		h1, h2 {
+			text-align: left;
+		}
+
+	}
+	@media screen and (min-width: 992px) {
+		ul {
+			padding-left: 30px;
+		}
+
+	}
+
+	@media screen and (min-width: 1200px) {
+		ul {
+			padding-left: 30px;
+		}
+
+	}

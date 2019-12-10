@@ -1,8 +1,80 @@
+
+#header ul {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#header li {
+	padding-bottom: 3px;
+	padding-top: 3px;
+	text-align: center;
+}
+#header h2 {
+	color: #376794;
+	margin-top: 11px;
+}
+#header small {
+	color: #83A7CA;
+}
+h4 {
+	text-align: left;
+	color: #376794;
+}
+h4 p {
+	font-size: .80em;
+}
+h4 p span.date {
+	font-style: italic;
+	font-weight: normal;
+}
+h3 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #376794;
+}
+h1,
+h2 {
+	text-align: center;
+}
+hr {
+	margin: 10px;
+}
+ul {
+	padding-left: 10px;
+}
+.contact {
+	margin-top: 22px;
+	line-height: 1.4em;
+	font-size: .85em;
+}
+.content {
+	margin-top: 0px;
+}
+.bs-callout {
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #eee;
+	border-right: 5px solid #eee;
+}
+.well {
+	background-color: #EBEDEF;
+}
+a {
+	color: #376794;
+	font-weight: bold;
+}
+a:hover {
+	color: #376794;
+}
+.fa:before {
+	margin-right: 7px;
+}
 #footer {
-    display: none;
+	display: none;
+}
+#footer + p {
+	width: 100%;
+	font-size: 11px;
 }
 
-#footer + p {
-    width: 100%;
-    font-size: 11px;
-}
